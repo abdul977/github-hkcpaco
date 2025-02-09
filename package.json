@@ -1,0 +1,15 @@
+{
+  "name": "mcan-lodge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
